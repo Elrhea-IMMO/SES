@@ -1,0 +1,14 @@
+{
+  "Information": [
+    "This file is used to configure the AWS Lambda .NET CLI commands."
+  ],
+  "profile": "default",
+  "region": "ap-south-1",
+  "function-runtime": "dotnet8",
+  "function-memory-size": 256,
+  "function-timeout": 30,
+  "function-handler": "AdminNotifyLambda::AdminNotifyLambda.Function::FunctionHandler",
+  "framework": "net8.0",
+  "function-name": "AdminNotifyLambda",
+  "function-description": "Sends admin email notifications via SES on SQS event"
+}
